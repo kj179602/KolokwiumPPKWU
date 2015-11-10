@@ -1,4 +1,5 @@
 
+import java.io.File;
 import java.util.Scanner;
 
 public class Aplikacja {
@@ -9,9 +10,7 @@ public class Aplikacja {
 		System.out.println("Podaj sciezke do pliku");
 		
 		Scanner s = new Scanner(System.in);
-		String plikString = s.next();
-		String[] parts = plikString.split(".");
-		File plik = new File();
+		String plik = s.next();
 		String plik2 = "zaszyfrowany.txt";
 		
 		System.out.println("Podaj has³o");
@@ -23,7 +22,7 @@ public class Aplikacja {
 		else{
 			System.out.println("Nieprawidlowe haslo!");
 		}
-		//System.out.println(sciezka);
+		
 	}
 	
 }
