@@ -43,7 +43,7 @@ public class Aplikacja {
 		}
 		System.out.println(FileExtension.getFileExtension(plik2));
 		FileOpen.openFile(plik2);
-		
+		s.close();
 	}
 	
 }
