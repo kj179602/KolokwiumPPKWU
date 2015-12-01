@@ -8,7 +8,8 @@ import java.util.Scanner;
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
-
+import java.io.File;
+import bin.thirdLibrary.FileExtension;
 import bin.secondLibrary.Crypt;
 
 
@@ -22,7 +23,7 @@ public class Aplikacja {
 		
 		Scanner s = new Scanner(System.in);
 		String plik = s.next();
-		String plik2 = "zaszyfrowany.txt";
+		String plik2 = "aes_zaszyfrowany.txt";
 		
 		System.out.println("Podaj has³o");
 		Scanner s2 = new Scanner(System.in);
@@ -36,6 +37,8 @@ public class Aplikacja {
 		else{
 			System.out.println("Nieprawidlowe haslo!");
 		}
+		System.out.println(FileExtension.getFileExtension(plik));
+		
 		
 	}
 	
