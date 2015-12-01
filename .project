@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>PPKUW</name>
-			<type>2</type>
-			<location>C:/Users/student/Desktop/PPKWU/Zadanie3/bin</location>
-		</link>
-	</linkedResources>
 </projectDescription>
